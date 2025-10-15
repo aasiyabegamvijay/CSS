@@ -1,0 +1,35 @@
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 656px;
+    background-color: darksalmon;
+}
+h3{
+    background-color: green;
+    outline: 10px double red;
+    outline-offset: 4px;
+}
+#div1{
+    background-color: chocolate;
+    border-left: 50px dashed violet;
+}
+.div2{
+    background-color: darkviolet;
+    margin: 50px;
+}
+#div3{
+    
+    background: radial-gradient(white,darkblue);
+}
+.div4 p,h4{
+    background-color: deeppink;
+}
+#div5 p{
+    background: linear-gradient(gold,red);
+}
+
