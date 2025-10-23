@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.head1{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        background-color: rgb(3, 3, 73); 
+        color: white;       
+    }
+    .head1 img{
+        background-image: none;
+        height: 50px;
+        width: 30px;
+        position: relative;
+        bottom: 30px;
+        right: -245px;
+    }
+    .head1 a{
+    color: white;  
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+.head1 a:active{
+    text-decoration: 3px underline skyblue;
+}
+.head1 h3{
+    margin-left:200px;
+}
+#icons{
+    display: flex;
+    gap: 20px;
+    margin-right: 200px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.header .center{
+    position: relative;
+    right: -70px;
+}
+
+.center h1{
+    font-size: 40px;
+}
+
+.center p{
+    font-size: 10px;
+}
+img{
+        background-image: url(./bg.jpg);
+        height: 500px;
+        width: 500px;
+        float: right;
+        padding-top: 30px;
+    }
+    .center p{
+        border: 2px solid skyblue;
+        padding: 10px;
+        width: fit-content;
+    }
+    .center h6{
+        font-size: large;
+    }
+    .services{
+        background-color: rgb(14, 0, 36);
+        padding: 60px 0;
+
+    }
+    .parent{
+        display: grid;
+        color: white;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 100px;
+    }
+    .do{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .motion{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .script{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .view{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .video{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .host{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .view{
+        border: 2px solid skyblue;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+    }
+    hr{
+        width: 10%;
+        border: 1px solid skyblue;
+        
+    }
+    .parent i,h4,p,h6{
+        margin-bottom: 10px;
+    }
+    .parent i,h6{
+        margin-top: 20px;
+    }
+    .do p{
+        margin-top: 10px;
+    }
+    .parent i{
+        border: 2px solid skyblue;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
